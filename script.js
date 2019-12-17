@@ -17,7 +17,8 @@ var password= nome + cognome + domandaSegreta + numero;
 document.getElementById("passwordgenerata").innerHTML=" " + password;
 // bonus
 var annoDiNascita = parseInt(prompt("Qual'e l'anno di nascita tuo?"));
+
 console.log(annoDiNascita);
 var annoCorrente = 2019
-var laTuaEta = (annoDiNascita-annoCorrente);
+var laTuaEta = (annoDiNascita -annoCorrente);
 document.getElementById("tuoianni").innerHTML= laTuaEta
