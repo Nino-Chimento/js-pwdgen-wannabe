@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(http://aforismi.meglio.it/img/frasi/matematica.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: rgb(193, 22, 179);
+}
+span {
+  color: red;
+  font-size: 1em;
+}
