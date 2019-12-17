@@ -8,6 +8,11 @@ document.getElementById("cognome-utente").innerHTML=" " + cognome;
 var domandaSegreta = prompt("qual'e' il tuo colore preferito?");
 console.log(domandaSegreta);
 document.getElementById("Domanda-segreta").innerHTML = " " + domandaSegreta
-var password= nome + cognome + domandaSegreta + "19";
-console.log(password);
-document.getElementById("passwordgenerata").innerHTML =" " + password;
+// var password= nome + cognome + domandaSegreta + "19";
+// console.log(password);
+// document.getElementById("passwordgenerata").innerHTML =" " + password;
+var numero=(prompt("Scegli un numero"));
+console.log(numero);
+var password= nome + cognome + domandaSegreta + numero;
+
+document.getElementById("passwordgenerata").innerHTML=" " + password;
